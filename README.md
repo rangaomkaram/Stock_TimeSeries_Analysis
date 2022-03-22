@@ -17,7 +17,7 @@ rule = BQS Business Quarters
 """
 
 ```
-df_Tesla.resample(rule = 'BA').max().plot(kind='bar')
+df_Tesla.resample(rule = 'QS').max()['High'].plot()
 ```
 ![image](https://user-images.githubusercontent.com/46269446/159547623-40faa74d-50a5-4ac5-9dab-e4ea785365f9.png)
 ```
